@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/iI4DdsQR)
 # ECE 208 Homework 4: Tree-based Multiple Sequence Alignment 
 
 You have learned in the lecture that the complexity of dynamic programming (DP) for pairwise and threeway sequence alignment are O(n<sup>2</sup>) and O(n<sup>3</sup>), respectively, where n is maximum length of the input sequences. 
