@@ -106,7 +106,6 @@ class Tests_01(unittest.TestCase):
                 if line.startswith("SP-Score"):
                     score = float(line.split("SP-Score")[-1].strip())
                     break
-
         self.assertTrue(score >= threshold, msg = "Failed correctness test on" + case + " " + ID + ": Too low SP-Score. Expect: >=" + str(threshold) + ". Your score: " + str(score))
         if score < cutoff[case]:
             print("Partially passed correctness test on" + case + " " + ID + ": Your SP-Score is " + str(score) + ". Aim at score " + str(cutoff[case]) + " to get full credit") 

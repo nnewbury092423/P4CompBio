@@ -32,5 +32,6 @@ if __name__ == "__main__":
 
     aln = MSA(seqs,tree,indel_rate)
     for ID in aln:
+        import pdb; pdb.set_trace()
         outfile.write(">%s\n%s\n" % (ID,aln[ID]))
     outfile.close()
