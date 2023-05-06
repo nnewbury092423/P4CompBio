@@ -39,6 +39,8 @@ def MSA(sequences, tree, indel_rate):
     :param indel_rate: indel_rate is a floating point number giving the relative rate of indel to substitutions
     '''
     aln = dict()
+
+    #function of indel rate
     gap = log2(indel_rate*.67)
 
 
